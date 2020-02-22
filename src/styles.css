@@ -1,0 +1,18 @@
+/* Add application styles & imports to this file! */
+.head{
+
+  margin-bottom: 13px;
+
+}
+
+.input-main-div .CountryNumberInput
+{
+  height: 28px!important;
+  min-width: 325px!important;
+}
+
+
+.panel-collapse.collapse.in
+{
+  font-weight: 500;
+}

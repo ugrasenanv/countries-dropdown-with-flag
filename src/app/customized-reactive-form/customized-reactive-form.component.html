@@ -1,0 +1,9 @@
+<form [formGroup]="sampleForm">
+<div>
+  <h1>Sample with Reactive Form Support</h1>
+  <intl-input-phone formControlName="sampleReactiveControl" [ConfigurationOption]="configOption1" ></intl-input-phone>
+</div>
+<br>
+<button class="btn btn-primary" (click)="ToggbleEnableDisableState()" >Toggle Enable/Disable</button>
+<button class="btn btn-primary" (click)="GetFormValue()">Get Value Using FormGroup</button>
+</form>
