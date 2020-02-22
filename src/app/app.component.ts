@@ -10,8 +10,7 @@ export class AppComponent  {
  
   constructor(private router : ActivatedRoute)
   {
-      // let currentUrl = window.location.toString();
-      // let urlParts = currentUrl.split('#');
+    
       
 
   }
